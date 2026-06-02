@@ -1,5 +1,5 @@
 - name: demo on variables
-  hosts: loalhost
+  hosts: localhost
   connection: local #it will not ask for username and password
   vars:
     COURSE: "ansible"
