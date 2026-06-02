@@ -1,0 +1,11 @@
+- name: demo on prompt
+  hosts: local 
+  connection: local #it will not ask for username and password
+  vars_prompt:
+  - name: "username"
+    prompt: "Please enter your username"
+    private: false  #it will show the input value in terminal
+
+  - name: "password"
+    prompt: "Please enter your password"
+    private: true  #it will not show the input value in terminal
