@@ -1,0 +1,23 @@
+- name: course information
+  hosts: local
+  connection: local #it will not ask for username and password
+  vars:
+    course: "Devsecops with Aiops" # string data type
+    duration_in_hrs: 150 # integer/number data type
+    is_live_sessions: true # boolean/bool data type
+    topics: # list data type
+      - Ansible
+      - Devsecops
+      - Aiops
+    more details:
+      months: 5
+      trainer: "Sivakumar"
+  tasks:
+  - name: print information
+    msg:
+      name: {{ course }}
+      duration: {{ duration_in_hrs }}
+      is_it_live_sessions: {{ is_live_sessions }}
+      topics: {{ topics }}
+      more_details: {{ more details }}
+    
