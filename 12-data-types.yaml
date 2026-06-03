@@ -9,7 +9,7 @@
       - "Ansible"
       - "DevSecOps"
       - "AIOps"
-    more details: #map
+    more_details: #map
       months: 5
       trainer: "Sivakumar"
   tasks:
