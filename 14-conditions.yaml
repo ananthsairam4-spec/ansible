@@ -1,4 +1,4 @@
-- name : even or odd number
+- name : check even or odd number
   hosts: local
   connection: local #it will not ask for username and password
   vars:
