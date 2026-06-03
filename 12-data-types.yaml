@@ -6,10 +6,10 @@
     duration_in_hrs: 150 # integer/number data type
     is_live_sessions: true # boolean/bool data type
     topics: # list data type
-      - 'Ansible'
-      - 'DevSecOps'
-      - 'AIOps'
-    more details:
+      - '"Ansible"'
+      - '"DevSecOps"'
+      - '"AIOps"'
+    more details: #map
       months: 5
       trainer: "Sivakumar"
   tasks:
