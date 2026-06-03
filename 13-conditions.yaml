@@ -1,0 +1,10 @@
+- name: check number of live sessions
+  hosts: local
+  connection: local #it will not ask for username and password
+  vars:
+    live_sessions: 6
+  tasks:
+  - name: is ansible more than 5 sessions
+    debug:
+      msg: "Yes, Ansible has more than 5 sessions"
+    when: live_sessions > 5
