@@ -1,0 +1,7 @@
+- name: demo on vars from cmd
+  hosts: local
+  connection: local #it will not ask for username and password
+  tasks:
+  - name: print name
+    debug:
+      msg: "Hello {{ name }}!"
