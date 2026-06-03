@@ -1,6 +1,6 @@
 - name: demo on inventory level variables
-  hosts: local
-  connection: local #it will not ask for username and password
+  hosts: frontend
+  #connection: local #it will not ask for username and password
   tasks:
   - name: print information
     debug:
