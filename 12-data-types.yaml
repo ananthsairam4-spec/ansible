@@ -2,13 +2,13 @@
   hosts: local
   connection: local #it will not ask for username and password
   vars:
-    course: '"DevSecOps with AIOps"' # string data type
+    course: 'DevSecOps with AIOps' # string data type
     duration_in_hrs: 150 # integer/number data type
     is_live_sessions: true # boolean/bool data type
     topics: # list data type
-      - '"Ansible"'
-      - '"DevSecOps"'
-      - '"AIOps"'
+      - 'Ansible'
+      - 'DevSecOps'
+      - 'AIOps'
     more details:
       months: 5
       trainer: "Sivakumar"
