@@ -10,7 +10,7 @@
       - DevSecOps
       - AIOps
     more_details: #map
-      months: "5"
+      months: 5
       trainer: "Sivakumar"
   tasks:
   - name: print information
