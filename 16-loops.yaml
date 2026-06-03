@@ -1,0 +1,11 @@
+- name: demo on loops
+  hosts: local
+  connection: local #it will not ask for username and password
+  tasks:
+  - name: print names
+    debug:
+      msg: "Hi {{ item }}" # Item is reserved special variable for loops
+      loop: 
+      - Siva
+      - Sairam
+      - Kumar
