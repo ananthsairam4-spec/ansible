@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   tasks:
-    topics: Linux, Shell, Ansible, Terraform, AWS
+    topics: "Linux, Shell, Ansible, Terraform, AWS"
   tasks:
   - name: convert string to list
     debug:
