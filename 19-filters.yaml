@@ -8,7 +8,7 @@
       project:  Roboshop
       environment: Development
     full_name: Anantha Sairam G
-    ip_address: 192.168.10.300
+    ip_address: 172.31.40.118
     tagslist: [
         {
             "key": "name",
