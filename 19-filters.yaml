@@ -4,6 +4,6 @@
   tasks:
     topics: "Linux, Shell, Ansible, Terraform, AWS"
   tasks:
-  - name: convert string to list
-    debug:
+    - name: convert string to list
+      debug:
       msg: "Topics are: {{ topics.split(',') }}"
