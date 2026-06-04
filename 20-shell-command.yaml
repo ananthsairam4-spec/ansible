@@ -9,7 +9,8 @@
   - name: print output
     debug:
       msg: "{{ users_output }}"
-      
+
   - name: list files in current directory
-    command: ls -ltr >  /tmp/files.txt
+    # command: ls -ltr >  /tmp/files.txt
+    shell: ls -ltr >  /tmp/files.txt
     
