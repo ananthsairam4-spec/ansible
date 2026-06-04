@@ -4,9 +4,9 @@
   vars:
     topics: "Linux, Shell, Ansible, Terraform, AWS"
     tagMap:
-      name: "Ansible"
-      project:  "Roboshop"
-      environment: "Development"
+      name: Ansible
+      project:  Roboshop
+      environment: Development
   tasks:
     - name: convert string to list
       debug:
