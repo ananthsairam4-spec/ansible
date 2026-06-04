@@ -3,7 +3,7 @@
   hosts: local
   connection: local
   tasks:
-- name: create expense user
-  user:
-    name: expense # useradd expense
+  - name: create expense user
+    user:
+      name: expense # useradd expense
     
