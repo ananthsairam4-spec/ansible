@@ -1,7 +1,7 @@
 - name: demo on filters
   hosts: local
   connection: local
-  tasks:
+  vars:
     topics: "Linux, Shell, Ansible, Terraform, AWS"
   tasks:
     - name: convert string to list
