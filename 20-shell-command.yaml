@@ -3,7 +3,5 @@
   connection: local
   tasks:
   - name: command test
-    command: cat /etc/passwd | grep root
-
-  - name: run date command using command module
-    command: date
+    # command: cat /etc/passwd | grep root
+    shell: cat /etc/passwd | grep root
