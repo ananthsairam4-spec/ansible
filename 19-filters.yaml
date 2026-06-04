@@ -8,6 +8,7 @@
       project:  Roboshop
       environment: Development
     full_name: Anantha Sairam G
+    ip_address: 192.168.10.300
     tagslist: [
         {
             "key": "name",
@@ -47,6 +48,10 @@
   - name: convert to lower case
     debug:
       msg: "{{ full_name | lower }}"
+
+  - name: check ipv4 address
+    debug:
+      msg: "{{ ip_address | ansible.utils.ipv4 }}"
 
 
   
