@@ -8,14 +8,14 @@
       project:  Roboshop
       environment: Development
   tasks:
-    - name: convert string to list
-      debug:
-        msg: "Topics are: {{ topics.split(',') }}"
+  - name: convert string to list
+    debug:
+      msg: "Topics are: {{ topics.split(',') }}"
 
-    - name: set default value
-      debug:
-        msg: "Hi {{ Greeting | default('Good Morning') }}"
+  - name: set default value
+    debug:
+      msg: "Hi {{ Greeting | default('Good Morning') }}"
 
-    - name: convert map to list
-      debug:
-        msg: "Tags are: {{ tagMap | dict2items }}"
+  - name: convert map to list
+    debug:
+      msg: "{{ tagMap | dict2items }}"
